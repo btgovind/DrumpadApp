@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E19E9E"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:onClick="playsound1"
+            android:text="Sound 1" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:onClick="playsound2"
+            android:text="Sound 2" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound3"
+            android:text="Sound 3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:onClick="playsound4"
+            android:text="Sound 4" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:onClick="playsound5"
+            android:text="Sound 5" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound6"
+            android:text="Sound 6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:onClick="playsound7"
+            android:text="Sound 7" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:onClick="playsound8"
+            android:text="Sound 8" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playsound9"
+            android:text="Sound 9" />
+    </LinearLayout>
+
+</LinearLayout>
